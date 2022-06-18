@@ -1,3 +1,7 @@
-const h2 = document.createElement("h2")
-h2.textContent = "This content added by JavaScript"
-document.querySelector("body").appendChild(h2)
+let slideIndex  = 1
+showSlides(slideIndex)
+
+function plusLides(n) {
+    showSlides(slideIndex +=n)
+
+}
